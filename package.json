@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "start": "tsc && node --env-file=dev.env dist/app.js  && ./node_modules/nodemon/bin/nodemon.js dist/app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
